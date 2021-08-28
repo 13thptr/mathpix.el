@@ -57,7 +57,7 @@
   :type 'string)
 
 ;; From org-download
-(defcustom mathpix-screenshot-method "gnome-screenshot -a -f %s"
+(defcustom mathpix-screenshot-method "i_view64.exe /capture=4 /convert=\"%s\""
   "The tool to capture screenshots."
   :type '(choice
           (const :tag "gnome-screenshot" "gnome-screenshot -a -f %s")
